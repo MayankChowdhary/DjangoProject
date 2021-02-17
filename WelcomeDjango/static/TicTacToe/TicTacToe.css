@@ -1,0 +1,47 @@
+.container {
+  background-color: black;
+  font-family: cursive;
+  text-align: center;
+  padding-top: 2vh;
+}
+
+.table{
+
+        margin-top:8vh;
+
+}
+table td{
+  height:100px;
+  width:100px;
+  text-align: center;
+  color: #FF94E9;
+  border: 2px solid #F72CFF;
+  -moz-box-shadow: 3px 4px 5px rgba(255,0,234,.5);
+  -webkit-box-shadow: 3px 4px 5px rgba(255,0,234,.5);
+  box-shadow: 3px 4px 5px rgba(255,0,234,.5);
+
+
+}
+table td:hover {
+  background-color: yellow;
+  color: green;
+
+}
+
+.glow {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+   text-shadow: 0 0 4px #fff, 0 0 5px #fff, 0 0 6px #e60073x;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 6px #ff4da6, 0 0 7px #ff4da6;
+  }
+}
